@@ -1,0 +1,49 @@
+.Team__Container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+    .Team__Title {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+
+        @media screen and (max-width: 1024px) {
+            font-size: 2rem;
+        }
+    }
+
+    .Team__Image-Container {
+        width: 100%;
+        margin-bottom: 0.75rem;
+
+        .Team__Image {
+            width: 100%;
+            height: 30rem;
+            border-radius: 1.5rem;
+            margin: 0 auto;
+            object-fit: cover;
+        }
+    }
+
+    .Team__Text-Container {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        text-align: center;
+
+        .Team__Introduction {
+            margin: 0 auto;
+            width: 80%;
+            color: #111111;
+            font-size: 1.2rem;
+            font-weight: 700;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+
+            @media screen and (max-width: 1024px) {
+                width: 90%;
+                font-size: 1rem;
+            }
+        }
+    }
+}
