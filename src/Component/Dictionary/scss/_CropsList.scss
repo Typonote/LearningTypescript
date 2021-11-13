@@ -9,6 +9,8 @@
 
     @media screen and (max-width: 768px) {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+        margin: 0.5rem;
     }
 }
 
@@ -19,6 +21,10 @@
     text-align: center;
     margin-top: 1rem;
 
+    @media screen and (max-width: 768px) {
+        padding: 1rem;
+    }
+
     .CropsList__Image {
         width: 100%;
         height: 15rem;
@@ -26,6 +32,11 @@
         object-position: center;
         border-radius: 0.5rem;
         margin-bottom: 1rem;
+
+        @media screen and (max-width: 768px) {
+            height: 10rem;
+            margin-bottom: 0.5rem;
+        }
     }
 
     .CropsList__Classification {
@@ -39,6 +50,11 @@
             font-size: 1rem;
             font-weight: 700;
             padding: 0.5rem;
+
+            @media screen and (max-width: 768px) {
+                font-size: 0.8rem;
+                padding: 0.3rem;
+            }
         }
     }
 
@@ -46,23 +62,26 @@
         font-size: 2.7rem;
         font-weight: 700;
         margin-bottom: 1rem;
+
+        @media screen and (max-width: 768px) {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
     }
 
     .CropsList__Content {
         font-size: 1rem;
         font-weight: 400;
+
+        @media screen and (max-width: 768px) {
+            font-size: 0.8rem;
+        }
     }
 
     .CropsList__Click {
         display: flex;
         flex-direction: row;
         margin-top: 1rem;
-
-        // .CropsList__Heart {
-        //     width: 1.5rem;
-        //     height: 1.5rem;
-        //     color: red;
-        // }
 
         .CropsList__Button {
             font-size: 1rem;
@@ -72,8 +91,11 @@
             color: #fff;
             border-radius: 0.5rem;
             margin: 0 auto;
+
+            @media screen and (max-width: 768px) {
+                font-size: 0.8rem;
+                padding: 0.5rem;
+            }
         }
     }
 }
-
-// p-2 pl-5 pr-5 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300
