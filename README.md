@@ -13,4 +13,5 @@ src/Routes/Member.tsx = src/Component/Team.tsx + src/Component/MemberList.tsx <b
 
 Routes/Dictionary.tsx = Component/Dictionary/ClopsList.tsx + Component/Dictionary/DicTopSection.tsx + Component/Common/SearchBar.tsx<br/>
 
-![Hnet-image (1)](https://user-images.githubusercontent.com/81430564/141646148-148926fa-0c8f-4a09-b2d5-ea00a6696ca3.gif) <br/>
+![Hnet-image](https://user-images.githubusercontent.com/81430564/141672695-87d80a11-d7a8-46cb-b514-a33b0fac7942.gif)
+
