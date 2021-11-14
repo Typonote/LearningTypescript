@@ -1,14 +1,13 @@
 import React from "react";
-import SearchBar from "../Component/Common/SearchBar";
-import CropsList from "../Component/Dictionary/CropsList";
+import SearchBar from "../Component/Dictionary/SearchBar";
 import DictTopSection from "../Component/Dictionary/DictTopSection";
+import Dummy2 from "../Sample/Dummy2";
 
 const Dictionary = () => {
   return (
     <div>
       <DictTopSection />
-      <SearchBar />
-      <CropsList />
+      <SearchBar data={Dummy2} />
     </div>
   );
 };
