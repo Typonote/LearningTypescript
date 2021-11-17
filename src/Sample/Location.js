@@ -1,4 +1,4 @@
-const Dummy4 = [
+const Location = [
   {
     lat: "37.222470144586225",
     lng: "127.04304425818334",
@@ -1082,4 +1082,4 @@ const Dummy4 = [
   },
 ];
 
-export default Dummy4;
+export default Location;
