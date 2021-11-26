@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "../Common/Modal";
-
 import "./scss/_CropsList.scss";
+import image1 from "../../Asset/Disease/Tomato/tomato1.jpg";
 
 const CropsList = (props: any) => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -11,7 +11,7 @@ const CropsList = (props: any) => {
       <div className="Search__Result">
         {props.data.map((value: any) => (
           <div className="CropsList__Container-Box">
-            <img className="CropsList__Image" src={value.src} alt="crops" />
+            <img className="CropsList__Image" src={image1} alt="crops" />
             <div className="CropsList__Classification">
               <div className="Classification__Name">{value.class1}</div>
               <div className="Classification__Name">{value.class2}</div>

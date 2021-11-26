@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="App__Container">
       {/* <Member /> */}
-      {/* <Dictionary /> */}
+      <Dictionary />
       {/* <Map data={Location} /> */}
-      <Analysis />
+      {/* <Analysis /> */}
     </div>
   );
 }

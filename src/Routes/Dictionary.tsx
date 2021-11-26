@@ -5,7 +5,7 @@ import Dummy2 from "../Sample/Dummy2";
 
 const Dictionary = () => {
   return (
-    <div>
+    <div style={{ width: "80%" }}>
       <DictTopSection />
       <SearchBar data={Dummy2} />
     </div>
